@@ -1,0 +1,81 @@
+.body-bg
+    width: 100%
+    height: 100%
+    background-color: $main-color
+.partner-header
+    margin-top: 40px
+    padding-bottom: 120px
+    margin-bottom: 90px
+    border-bottom: 1px solid $white
+    .logo
+        display: flex
+        justify-content: center
+        align-items: center
+        &__rub
+            color: $white
+            font-size: 40px
+            font-family: 'ALSRublRegular'
+            border: 2px solid $white
+            border-radius: 50%
+            margin: 0
+            background-color: $logo-bg
+            padding: 0 12px 10px 10px
+        &__text
+            font-size: 21px
+            color: $white
+            text-transform: uppercase
+            margin-left: 10px
+            border-bottom: 2px solid
+            letter-spacing: 1px
+.main
+    border-bottom: 1px solid $white
+    padding-bottom: 100px
+    &-content
+        display: flex
+        flex-direction: column
+        &__description
+            margin: 0
+            font-family: 'Heading Pro'
+            font-style: italic
+            color: $white
+            font-size: 32px
+            &-center
+                display: flex
+                justify-content: flex-end
+                padding-right: 100px
+                margin-top: 10px
+            &-right
+                display: flex
+                justify-content: flex-end
+                margin-top: 10px
+.footer
+    margin-top: 40px
+    .card-block
+        display: flex
+        justify-content: space-between
+        background-color: $white
+        padding: 5px
+        margin-bottom: 10px
+        .block-img
+            width: 65px
+    &-menu
+        display: flex
+        justify-content: space-evenly
+        &__link
+            color: $white
+            text-transform: uppercase
+            font-size: 14px
+            position: relative
+            &::before
+                content: '*'
+                position: absolute
+                left: -8px
+                top: 3px
+            &:last-child
+                &::after
+                    content: '*'
+                    position: absolute
+                    right: -10px
+                    top: 3px
+        
+

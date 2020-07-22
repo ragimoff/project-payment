@@ -1,0 +1,195 @@
+@font-face {
+  font-family: 'ALSRublRegular';
+  src: url("../fonts/rouble/rouble.eot");
+  src: url("../fonts/rouble/rouble.eot?#iefix") format("embedded-opentype"), url("../fonts/rouble/rouble.woff") format("woff"), url("../fonts/rouble/rouble.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Heading Pro';
+  src: local("../fonts/heading/Heading Pro Bold"), local("Heading-Pro-Bold"), url("../fonts/heading/HeadingPro-Bold.woff2") format("woff2"), url("../fonts/heading/HeadingPro-Bold.woff") format("woff"), url("../fonts/heading/HeadingPro-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Heading Pro';
+  src: local("../fonts/heading/Heading Pro Extra Light"), local("Heading-Pro-Extra-Light"), url("../fonts/heading/HeadingPro-ExtraLight.woff2") format("woff2"), url("../fonts/heading/HeadingPro-ExtraLight.woff") format("woff"), url("../fonts/heading/HeadingPro-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Heading Pro';
+  src: local("../fonts/heading/Heading Pro Italic"), local("Heading-Pro-Italic"), url("../fonts/heading/HeadingPro-Italic.woff2") format("woff2"), url("../fonts/heading/HeadingPro-Italic.woff") format("woff"), url("../fonts/heading/HeadingPro-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Heading Pro';
+  src: local("../fonts/heading/Heading Pro Light"), local("Heading-Pro-Light"), url("../fonts/heading/HeadingPro-Light.woff2") format("woff2"), url("../fonts/heading/HeadingPro-Light.woff") format("woff"), url("../fonts/heading/HeadingPro-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  overflow-x: hidden;
+  font-family: 'Heading Pro', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 0 10px;
+}
+
+.body-bg {
+  width: 100%;
+  height: 100%;
+  background-color: #00a2e8;
+}
+
+.partner-header {
+  margin-top: 40px;
+  padding-bottom: 120px;
+  margin-bottom: 90px;
+  border-bottom: 1px solid #fff;
+}
+
+.partner-header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.partner-header .logo__rub {
+  color: #fff;
+  font-size: 40px;
+  font-family: 'ALSRublRegular';
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin: 0;
+  background-color: #1d7cc5;
+  padding: 0 12px 10px 10px;
+}
+
+.partner-header .logo__text {
+  font-size: 21px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-left: 10px;
+  border-bottom: 2px solid;
+  letter-spacing: 1px;
+}
+
+.main {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 100px;
+}
+
+.main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-content__description {
+  margin: 0;
+  font-family: 'Heading Pro';
+  font-style: italic;
+  color: #fff;
+  font-size: 32px;
+}
+
+.main-content__description-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 100px;
+  margin-top: 10px;
+}
+
+.main-content__description-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.footer {
+  margin-top: 40px;
+}
+
+.footer .card-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #fff;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.footer .card-block .block-img {
+  width: 65px;
+}
+
+.footer-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.footer-menu__link {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+}
+
+.footer-menu__link::before {
+  content: '*';
+  position: absolute;
+  left: -8px;
+  top: 3px;
+}
+
+.footer-menu__link:last-child::after {
+  content: '*';
+  position: absolute;
+  right: -10px;
+  top: 3px;
+}
