@@ -78,18 +78,6 @@ a {
   border-bottom: 1px solid #fff;
 }
 
-.partner-header .logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .partner-header .logo__rub {
   color: #fff;
   font-size: 40px;
@@ -172,6 +160,7 @@ a {
 
 .footer .card-block .block-img {
   width: 65px;
+  max-height: 30px;
 }
 
 .footer-menu {
